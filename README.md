@@ -17,9 +17,12 @@ Atividade HTML
 Ex. 
 
  ```html
-      <header>
-           Usuário logado: Renan
-           <a href="index.html">Sair</a>
+       <header>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#trabalhos">Trabalhos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
        </header>
 
  ```
