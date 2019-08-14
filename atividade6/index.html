@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Atividade 6</title>
+    </head>
+    <body>
+        <form action="cadastro.php" method="POST">
+            <ul>
+                <li>    
+                    <label for="nome">Nome Completo *</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+                </li>
+                <li>
+                    <label for="email">E-mail *</label>
+                    <input type="email" name="email" id="email" required>
+                </li>
+                <li>
+                    <label for="assunto">Assunto</label>
+                    <select name="assunto"> 
+                        <option>Reclamação</option>
+                        <option>Sugestão</option>
+                    </select> 
+                </li>
+                <li>
+                    <label for="mensagem">Mensagem *</label><br>
+                    <textarea rows="2"> </textarea> 
+                </li>
+            </ul>
+
+            <p>Informações Complementares</p>
+
+            <label for="profissao">Profissão *</label>
+            <input type="text" name="profissao" id="profissao" required>
+            
+            <label for="telefone">Telefone(</label><input type="text" name="ddd" id="ddd" size="2"><label">)</label><input type="text" name="telefoneUm" id="telefoneUm" width="4px">-<input type="text" name="telefoneDois" id="telefoneDois" width="4px">
+            
+            <label>Pretensão salarial</label>
+            <select name="pretensaoSalarial"> 
+                <option>R$ 2000,00 - R$ 3000,00</option>
+                <option>R$ 0,00 - R$ 1000,00</option>
+                <option>R$ 3000,00 - R$ 4000,00</option>
+            </select> 
+
+            <label for="observacao">Observações *</label>
+            <textarea rows="2" required> </textarea> 
+
+            <button onclick="location.href='confirma-cadastro.html'">Cadastrar</button>
+        </form>
+    </body>
+</html>
