@@ -12,8 +12,7 @@ Atividade HTML
 
 ### Comandos Utilizados:  
 
-* \<header>\</header> -  elemento <header> representa um contêiner para conteúdo introdutório ou um conjunto de links de navegação. Geralmente contém:  
-
+* \<header>\</header> - elemento \<header> representa um contêiner para conteúdo introdutório ou um conjunto de links de navegação. Geralmente contém:  
    Obs: Uma tag \<header> não pode ser colocada dentro de um \<footer>, \<address> ou outro elemento \<header>.  
 Ex. 
 
@@ -60,7 +59,7 @@ Você pode ter vários elementos \<footer> em um documento.
 
  ```  
  ---  
- * Comando   \‘&copy;’ - insere símbolo copyright 
+ * Comando ‘\&copy;’ - insere símbolo copyright 
  
   Ex.:
  ```html
@@ -73,7 +72,7 @@ Você pode ter vários elementos \<footer> em um documento.
   <input type="text" name="nome" id="nome" placeholder="Nome" required>
  ```  
  ---  
- * method e \‘value’ POST - para, ao clicar em enviar, na URL não apareça os dados enviados pelo form (como a senha)  
+ * method e ‘value’ POST - para, ao clicar em enviar, na URL não apareça os dados enviados pelo form (como a senha)  
  Ex.:
  ```html
   <form action="cadastro.php" method="POST">
